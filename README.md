@@ -43,6 +43,9 @@ The mind map is organized into the following categories:
   - [Sozu](#sozu)
   - [Katana](#katana)
   - [Torii](#torii)
+- [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
+  - [cairo-by-example](#cairo-by-example)
+  - [StarknetByExample](#starknetbyexample)
 
 ## Cairo
 
@@ -81,6 +84,8 @@ Repository:
 https://github.com/software-mansion/protostar
 
 ### Kakarot
+
+Kakarot is an zkEVM written in Cairo. Can be used to run Ethereum smart contracts on Starknet.
 
 Repository:
 https://github.com/kkrt-labs/kakarot
@@ -157,6 +162,18 @@ Game engine and toolchain for building onchain games
 - [Sozu](#sozu)
 - [Katana](#katana)
 - [Torii](#torii)
+
+## quickly on-board new developers by examples
+
+### cairo-by-example
+
+Repository:
+https://github.com/lambdaclass/cairo-by-example/
+
+### StarknetByExample
+
+Repository:
+https://github.com/NethermindEth/StarknetByExample
 
 ## Contribute
 
