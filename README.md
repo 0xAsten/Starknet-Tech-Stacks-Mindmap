@@ -23,6 +23,7 @@ The mind map is organized into the following categories:
   - [Scarb](#scarb)
   - [Starknet Contracts](#starknet-contracts)
     - [protostar](#protostar)
+  - [Kakarot](#kakarot)
   - [Cairo Book](#cairo-book)
 - [starknet_in_rust](#starknet-in-rust)
 - [starknet.py](#starknetpy)
@@ -79,10 +80,15 @@ Toolchain for developing and testing contracts
 Repository:
 https://github.com/software-mansion/protostar
 
+### Kakarot
+
+Repository:
+https://github.com/kkrt-labs/kakarot
+
 ### Cairo Book
 
 Repository:
-https://github.com/cairo-book
+https://github.com/cairo-book/cairo-book.github.io
 
 ## starknet_in_rust
 
