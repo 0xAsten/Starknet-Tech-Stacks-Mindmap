@@ -19,7 +19,7 @@ The mind map is organized into the following categories:
 - [Cairo](#cairo)
   - [Cairo VM](#cairo-vm)
     - [cairo-lang](#cairo-lang)
-    - [cairo-rs](#cairo-rs)
+    - [cairo-vm](#cairo-vm)
   - [Scarb](#scarb)
   - [Starknet Contracts](#starknet-contracts)
     - [protostar](#protostar)
@@ -57,12 +57,12 @@ Written in Python and is currently in production
 Repository:
 https://github.com/starkware-libs/cairo-lang
 
-#### cairo-rs
+#### cairo-vm
 
-Written in Rust will replace the Python one
+Written in Rust will replace the Python one. Formerly known as cairo-rs.
 
 Repository:
-https://github.com/lambdaclass/cairo-rs
+https://github.com/lambdaclass/cairo-vm
 
 ### Scarb
 
