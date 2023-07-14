@@ -43,6 +43,9 @@ The mind map is organized into the following categories:
   - [Sozu](#sozu)
   - [Katana](#katana)
   - [Torii](#torii)
+- [juno](#juno)
+- [starknet-rs](#starknet-rs)
+- [starkli](#starkli)
 - [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
   - [cairo-by-example](#cairo-by-example)
   - [StarknetByExample](#starknetbyexample)
@@ -162,6 +165,18 @@ Game engine and toolchain for building onchain games
 - [Sozu](#sozu)
 - [Katana](#katana)
 - [Torii](#torii)
+
+## juno
+
+Full node Starknet client implementation.
+
+## starknet-rs
+
+starknet-rs, Complete Starknet library in Rust.
+
+## starkli
+
+CLI tool for Starknet.
 
 ## quickly on-board new developers by examples
 
