@@ -33,10 +33,10 @@ The mind map is organized into the following categories:
   - [Starknet Accounts](#starknet-accounts)
   - [Starknet ERC721](#starknet-erc721)
   - [Starknet ERC20](#starknet-erc20)
+- [Madara](#madara)
+- [Blockifier](#blockifier)
 - [Sequencer](#sequencer)
-  - [Madara](#madara)
-  - [Blockifier](#blockifier)
-  - [lambda_starknet_sequencer](#lambda_starknet_sequencer)
+  - ~~[lambda_starknet_sequencer](#lambda_starknet_sequencer)~~
 - [OpenZeppelin/cairo-contracts](#openzeppelincairo-contracts)
 - [alexandria](#alexandria)
 - [dojo](#dojo)
@@ -123,28 +123,34 @@ https://github.com/starknet-edu
 - Starknet ERC721: https://github.com/starknet-edu/starknet-erc721
 - Starknet ERC20: https://github.com/starknet-edu/starknet-erc20
 
-## Sequencer
+## Madara
 
-- Madara
+Utilizing the Substrate framework and integrating the Cairo VM for the building of appchain / layer3.
 
-A Rust implementation Starknet sequencer based on substrate in the StarkNet sequencer
+Substrate is an open-source Rust framework to build customizable blockchains.
+
+The Cairo VM is specifically designed to efficiently generate Validity Proofs for program execution.
+
+By employing state tracking and a smart contract to verify these proofs on L2, appchain created by Madara ensures secure integration with Starknet.
 
 Repository:
 https://github.com/keep-starknet-strange/madara
 
-- Blockifier
+## Blockifier
 
 A Rust implementation for the transaction-executing component in the StarkNet sequencer
 
 Repository:
 https://github.com/starkware-libs/blockifier
 
-- lambda_starknet_sequencer
+## Sequencer
 
-A Starknet decentralized sequencer implementation
+- ~~lambda_starknet_sequencer~~
 
-Repository:
-https://github.com/lambdaclass/lambda_starknet_sequencer
+  A Starknet decentralized sequencer implementation
+
+  Repository:
+  https://github.com/lambdaclass/lambda_starknet_sequencer
 
 ## OpenZeppelin/cairo-contracts
 
