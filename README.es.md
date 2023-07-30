@@ -45,7 +45,7 @@ El mapa mental se organiza en las siguientes categorías:
 - [juno](#juno)
 - [starknet-rs](#starknet-rs)
 - [starkli](#starkli)
-- [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
+- [Incorporar rápidamente a nuevos desarrolladores mediante ejemplos](#incorporar-rápidamente-a-nuevos-desarrolladores-mediante-ejemplos)
   - [cairo-by-example](#cairo-by-example)
   - [StarknetByExample](#starknetbyexample)
 
