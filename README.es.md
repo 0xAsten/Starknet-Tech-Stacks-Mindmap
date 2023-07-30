@@ -18,29 +18,36 @@ El mapa mental se organiza en las siguientes categorías:
 - [Cairo](#cairo)
   - [Cairo VM](#cairo-vm)
     - [cairo-lang](#cairo-lang)
-    - [cairo-rs](#cairo-rs)
+    - [cairo-vm](#cairo-vm)
   - [Scarb](#scarb)
-  - [Contratos Starknet](#contratos-starknet)
+  - [Starknet Contracts](#starknet-contracts)
     - [protostar](#protostar)
-  - [Libro de Cairo](#libro-de-cairo)
-- [Starknet_in_rust](#starknet-in-rust)
-- [Starknet.py](#starknetpy)
+  - [Kakarot](#kakarot)
+  - [Cairo Book](#cairo-book)
+- [starknet_in_rust](#starknet-in-rust)
+- [starknet.py](#starknetpy)
 - [Starknet Edu](#starknet-edu)
-  - [Libro de Starknet](#libro-de-starknet)
+  - [Starknet Book](#starknet-book)
   - [Starknet Cairo 101](#starknet-cairo-101)
-  - [Cuentas Starknet](#cuentas-starknet)
+  - [Starknet Accounts](#starknet-accounts)
   - [Starknet ERC721](#starknet-erc721)
   - [Starknet ERC20](#starknet-erc20)
-- [Secuenciador](#secuenciador)
-  - [Madara](#madara)
-  - [Blockifier](#blockifier)
-  - [Lambda_starknet_sequencer](#lambda_starknet_sequencer)
+- [Madara](#madara)
+- [Blockifier](#blockifier)
+- [Sequencer](#sequencer)
+  - ~~[lambda_starknet_sequencer](#lambda_starknet_sequencer)~~
 - [OpenZeppelin/cairo-contracts](#openzeppelincairo-contracts)
-- [Alexandria](#alexandria)
-- [Dojo](#dojo)
+- [alexandria](#alexandria)
+- [dojo](#dojo)
   - [Sozu](#sozu)
   - [Katana](#katana)
   - [Torii](#torii)
+- [juno](#juno)
+- [starknet-rs](#starknet-rs)
+- [starkli](#starkli)
+- [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
+  - [cairo-by-example](#cairo-by-example)
+  - [StarknetByExample](#starknetbyexample)
 
 ## Cairo
 
@@ -56,12 +63,12 @@ Escrito en Python y actualmente en producción.
 Repositorio:
 https://github.com/starkware-libs/cairo-lang
 
-#### cairo-rs
+#### cairo-vm
 
-Escrito en Rust y reemplazará al de Python.
+Escrito en Rust, reemplazará al escrito en Python. Anteriormente conocido como cairo-rs.
 
-Repositorio:
-https://github.com/lambdaclass/cairo-rs
+Repository:
+https://github.com/lambdaclass/cairo-vm
 
 ### Scarb
 
@@ -77,6 +84,13 @@ Conjunto de herramientas para desarrollar y probar contratos.
 
 Repositorio:
 https://github.com/software-mansion/protostar
+
+### Kakarot
+
+Kakarot es un zkEVM escrito en Cairo. Puede utilizarse para ejecutar contratos inteligentes de Ethereum en Starknet.
+
+Repository:
+https://github.com/kkrt-labs/kakarot
 
 ### Libro de Cairo
 
@@ -108,28 +122,34 @@ https://github.com/starknet-edu
 - Starknet ERC721: https://github.com/starknet-edu/starknet-erc721
 - Starknet ERC20: https://github.com/starknet-edu/starknet-erc20
 
-## Secuenciador
+## Madara
 
-- Madara
+Madara utiliza el marco de trabajo Substrate e integra la Cairo VM para la construcción appchain / layer 3.
 
-Implementación en Rust del secuenciador Starknet basado en Substrate en el secuenciador Starknet.
+Substrate es un open-source Rust framework que permite construir blockchains personalizables.
+
+La Cairo VM está diseñada específicamente para generar de manera eficienteValidity Proof para la ejecución de programas.
+
+Al emplear seguimiento de estado y un smart contract para verificar estas pruebas en L2, la appchain creada por Madara asegura una integración segura con Starknet.
 
 Repositorio:
 https://github.com/keep-starknet-strange/madara
 
-- Blockifier
+## Blockifier
 
 Implementación en Rust del componente de ejecución de transacciones en el secuenciador Starknet.
 
 Repositorio:
 https://github.com/starkware-libs/blockifier
 
-- lambda_starknet_sequencer
+## Sequencer
 
-Implementación descentralizada del secuenciador Starknet.
+- ~~lambda_starknet_sequencer~~
 
-Repositorio:
-https://github.com/lambdaclass/lambda_starknet_sequencer
+  A Starknet decentralized sequencer implementation
+
+  Repository:
+  https://github.com/lambdaclass/lambda_starknet_sequencer
 
 ## OpenZeppelin/cairo-contracts
 
@@ -150,6 +170,30 @@ Motor de juegos y conjunto de herramientas para construir juegos en cadena.
 - [Sozu](#sozu)
 - [Katana](#katana)
 - [Torii](#torii)
+
+## Juno
+
+Implementación del cliente de nodo completo de Starknet.
+
+## starknet-rs
+
+starknet-rs, biblioteca completa de Starknet en Rust.
+
+## starkli
+
+Herramienta de CLI para Starknet.
+
+## Incorporar rápidamente a nuevos desarrolladores mediante ejemplos
+
+### cairo-by-example
+
+Repositorio:
+https://github.com/lambdaclass/cairo-by-example/
+
+### StarknetByExample
+
+Repositorio:
+https://github.com/NethermindEth/StarknetByExample
 
 ## Contribuir
 
