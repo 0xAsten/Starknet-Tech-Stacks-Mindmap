@@ -92,7 +92,7 @@ Kakarot es un zkEVM escrito en Cairo. Puede utilizarse para ejecutar contratos i
 Repository:
 https://github.com/kkrt-labs/kakarot
 
-### Libro de Cairo
+### Cairo Book
 
 Repositorio:
 https://github.com/cairo-book
@@ -116,7 +116,7 @@ https://github.com/software-mansion/starknet.py
 Repositorio:
 https://github.com/starknet-edu
 
-- Libro de Starknet: https://github.com/starknet-edu/starknetbook
+- Starknet Book: https://github.com/starknet-edu/starknetbook
 - Starknet Cairo 101: https://github.com/starknet-edu/starknet-cairo-101
 - Cuentas Starknet: https://github.com/starknet-edu/starknet-accounts
 - Starknet ERC721: https://github.com/starknet-edu/starknet-erc721
