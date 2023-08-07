@@ -196,6 +196,14 @@ https://github.com/lambdaclass/cairo-by-example/
 Repository:
 https://github.com/NethermindEth/StarknetByExample
 
+## ZKML
+
+### Orion
+
+A framework dedicated to Provable Machine Learning. It provides essential components and a new ONNX runtime for building verifiable Machine Learning models using STARKs.
+
+https://github.com/gizatechxyz/orion
+
 ## Contribute
 
 We encourage you to contribute to this project by suggesting additions, modifications, or corrections to the existing mind map. Your contributions can help expand the knowledge base and provide a valuable resource for the Starknet community. Whether you have expertise in specific tech stacks or want to learn more about Starknet's ecosystem, your involvement is greatly appreciated.
