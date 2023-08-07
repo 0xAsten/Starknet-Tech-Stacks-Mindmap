@@ -44,7 +44,9 @@ The mind map is organized into the following categories:
   - [Sozu](#sozu)
   - [Katana](#katana)
   - [Torii](#torii)
-- [juno](#juno)
+- [Full Node](#full-node)
+  - [pathfinder](#pathfinder)
+  - [juno](#juno)
 - [starknet-rs](#starknet-rs)
 - [starkli](#starkli)
 - [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
@@ -170,22 +172,32 @@ https://github.com/OpenZeppelin/cairo-contracts
 
 ## alexandria
 
-A collection of useful algorithms and data structures implemented in Cairo
+A collection of useful algorithms and data structures implemented in Cairo.
 
 Repository:
 https://github.com/keep-starknet-strange/alexandria
 
 ## dojo
 
-Game engine and toolchain for building onchain games
+Game engine and toolchain for building onchain games.
 
 - [Sozu](#sozu)
 - [Katana](#katana)
 - [Torii](#torii)
 
-## juno
+## Full Node
+
+### pathfinder
+
+A Starknet full node written in Rust.
+
+https://github.com/eqlabs/pathfinder
+
+### juno
 
 Full node Starknet client implementation.
+
+https://github.com/NethermindEth/juno
 
 ## starknet-rs
 
@@ -194,6 +206,8 @@ starknet-rs, Complete Starknet library in Rust.
 ## starkli
 
 CLI tool for Starknet.
+
+https://github.com/xJonathanLEI/starkli
 
 ## quickly on-board new developers by examples
 
