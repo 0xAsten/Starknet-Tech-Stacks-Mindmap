@@ -23,6 +23,7 @@ The mind map is organized into the following categories:
   - [Scarb](#scarb)
   - [Starknet Contracts](#starknet-contracts)
     - [protostar](#protostar)
+    - [Starknet Foundry](#starknet-foundry)
   - [Kakarot](#kakarot)
   - [Cairo Book](#cairo-book)
 - [starknet_in_rust](#starknet-in-rust)
@@ -49,6 +50,8 @@ The mind map is organized into the following categories:
 - [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
   - [cairo-by-example](#cairo-by-example)
   - [StarknetByExample](#starknetbyexample)
+- [ZKML](#zkml)
+  - [Orion](#orion)
 
 ## Cairo
 
@@ -85,6 +88,14 @@ Toolchain for developing and testing contracts
 
 Repository:
 https://github.com/software-mansion/protostar
+
+#### Starknet Foundry
+
+`starknet-foundry`, created in Software Mansion, has been just released
+It is an effort subsequent to protostar, the original protostar team is working on it.
+Yup, protostar will not be much supported anymore, whole protostar team is working on starknet-foundry right now.
+
+https://github.com/foundry-rs/starknet-foundry
 
 ### Kakarot
 
