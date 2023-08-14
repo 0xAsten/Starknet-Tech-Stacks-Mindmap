@@ -22,13 +22,15 @@ The mind map is organized into the following categories:
     - [cairo-vm](#cairo-vm)
     - [cairo-vm.go](#cairo-vm.go)
   - [Scarb](#scarb)
-  - [Starknet Contracts](#starknet-contracts)
-    - [protostar](#protostar)
-    - [Starknet Foundry](#starknet-foundry)
   - [Kakarot](#kakarot)
   - [Cairo Book](#cairo-book)
-- [starknet_in_rust](#starknet-in-rust)
-- [starknet.py](#starknetpy)
+- [Libraries and Tools](#libraries-and-tools)
+  - [starknet.py](#starknetpy)
+  - [starknet-rs](#starknet-rs)
+  - [starknet_in_rust](#starknet_in_rust)
+  - [Smart Contracts](#smart-contracts)
+    - [protostar](#protostar)
+    - [Starknet Foundry](#starknet-foundry)
 - [Starknet Edu](#starknet-edu)
   - [Starknet Book](#starknet-book)
   - [Starknet Cairo 101](#starknet-cairo-101)
@@ -58,11 +60,11 @@ The mind map is organized into the following categories:
 
 ## Cairo
 
+Cairo (CPU Algebraic Intermediate Representation) is a programming language for writing provable programs, where one party can prove to another that a certain computation was executed correctly without the need for this party to re-execute the same program.
+
 https://github.com/starkware-libs/cairo
 
 ### Cairo VM
-
-Cairo (CPU Algebraic Intermediate Representation) is a programming language for writing provable programs, where one party can prove to another that a certain computation was executed correctly without the need for this party to re-execute the same program.
 
 #### cairo-lang
 
@@ -89,7 +91,38 @@ Cairo package manager
 
 https://github.com/software-mansion/scarb
 
-### Starknet Contracts
+### Kakarot
+
+Kakarot is an zkEVM written in Cairo. Can be used to run Ethereum smart contracts on Starknet.
+
+Repository:
+https://github.com/kkrt-labs/kakarot
+
+### Cairo Book
+
+https://github.com/cairo-book/cairo-book.github.io
+
+## Libraries and Tools
+
+### starknet.py
+
+Pyhton SDK for Starknet
+
+https://github.com/software-mansion/starknet.py
+
+### starknet-rs
+
+Complete Starknet library in Rust
+
+https://github.com/xJonathanLEI/starknet-rs
+
+### starknet_in_rust
+
+A Rust implementation of Starknet with deployable node, RPC endpoints and CLI. Make use of cairo-rs declare, deploy and interact with contracts.
+
+https://github.com/lambdaclass/starknet_in_rust
+
+### Smart Contracts
 
 #### protostar
 
@@ -104,29 +137,6 @@ It is an effort subsequent to protostar, the original protostar team is working 
 Yup, protostar will not be much supported anymore, whole protostar team is working on starknet-foundry right now.
 
 https://github.com/foundry-rs/starknet-foundry
-
-### Kakarot
-
-Kakarot is an zkEVM written in Cairo. Can be used to run Ethereum smart contracts on Starknet.
-
-Repository:
-https://github.com/kkrt-labs/kakarot
-
-### Cairo Book
-
-https://github.com/cairo-book/cairo-book.github.io
-
-## starknet_in_rust
-
-Written in Rust and make use of cairo-rs declare, deploy and interact with contracts
-
-https://github.com/lambdaclass/starknet_in_rust
-
-## starknet.py
-
-Pyhton SDK for Starknet
-
-https://github.com/software-mansion/starknet.py
 
 ## Starknet Edu
 
@@ -218,7 +228,6 @@ https://github.com/lambdaclass/cairo-by-example/
 
 ### StarknetByExample
 
-Repository:
 https://github.com/NethermindEth/StarknetByExample
 
 ## ZKML
