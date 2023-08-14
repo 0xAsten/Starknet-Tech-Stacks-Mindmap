@@ -20,6 +20,7 @@ The mind map is organized into the following categories:
   - [Cairo VM](#cairo-vm)
     - [cairo-lang](#cairo-lang)
     - [cairo-vm](#cairo-vm)
+    - [cairo-vm.go](#cairo-vm.go)
   - [Scarb](#scarb)
   - [Starknet Contracts](#starknet-contracts)
     - [protostar](#protostar)
@@ -57,24 +58,30 @@ The mind map is organized into the following categories:
 
 ## Cairo
 
-Repository:
 https://github.com/starkware-libs/cairo
 
 ### Cairo VM
 
+Cairo (CPU Algebraic Intermediate Representation) is a programming language for writing provable programs, where one party can prove to another that a certain computation was executed correctly without the need for this party to re-execute the same program.
+
 #### cairo-lang
 
-Written in Python and is currently in production
+`cairo-lang` was allowed in the production environment until July 2023, after which it was replaced by `cairo-vm`.
 
 Repository:
 https://github.com/starkware-libs/cairo-lang
 
 #### cairo-vm
 
-Written in Rust will replace the Python one. Formerly known as cairo-rs.
+`cairo-vm` is in produciton now. Formerly known as `cairo-rs`.
 
-Repository:
 https://github.com/lambdaclass/cairo-vm
+
+#### cairo-vm.go
+
+A Go implementation of the Cairo VM.
+
+https://github.com/lambdaclass/cairo-vm.go
 
 ### Scarb
 
@@ -88,7 +95,6 @@ https://github.com/software-mansion/scarb
 
 Toolchain for developing and testing contracts
 
-Repository:
 https://github.com/software-mansion/protostar
 
 #### Starknet Foundry
@@ -108,21 +114,18 @@ https://github.com/kkrt-labs/kakarot
 
 ### Cairo Book
 
-Repository:
 https://github.com/cairo-book/cairo-book.github.io
 
 ## starknet_in_rust
 
 Written in Rust and make use of cairo-rs declare, deploy and interact with contracts
 
-Repository:
 https://github.com/lambdaclass/starknet_in_rust
 
 ## starknet.py
 
 Pyhton SDK for Starknet
 
-Repository:
 https://github.com/software-mansion/starknet.py
 
 ## Starknet Edu
@@ -162,7 +165,6 @@ https://github.com/starkware-libs/blockifier
 
   A Starknet decentralized sequencer implementation
 
-  Repository:
   https://github.com/lambdaclass/lambda_starknet_sequencer
 
 ## OpenZeppelin/cairo-contracts
@@ -174,7 +176,6 @@ https://github.com/OpenZeppelin/cairo-contracts
 
 A collection of useful algorithms and data structures implemented in Cairo.
 
-Repository:
 https://github.com/keep-starknet-strange/alexandria
 
 ## dojo
@@ -213,7 +214,6 @@ https://github.com/xJonathanLEI/starkli
 
 ### cairo-by-example
 
-Repository:
 https://github.com/lambdaclass/cairo-by-example/
 
 ### StarknetByExample
