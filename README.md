@@ -37,10 +37,9 @@ The mind map is organized into the following categories:
   - [Starknet Accounts](#starknet-accounts)
   - [Starknet ERC721](#starknet-erc721)
   - [Starknet ERC20](#starknet-erc20)
-- [Madara](#madara)
+- [APPChain Layer3](#appchain-layer3)
+  - [Madara](#madara)
 - [Blockifier](#blockifier)
-- [Sequencer](#sequencer)
-  - ~~[lambda_starknet_sequencer](#lambda_starknet_sequencer)~~
 - [OpenZeppelin/cairo-contracts](#openzeppelincairo-contracts)
 - [alexandria](#alexandria)
 - [dojo](#dojo)
@@ -50,8 +49,6 @@ The mind map is organized into the following categories:
 - [Full Node](#full-node)
   - [pathfinder](#pathfinder)
   - [juno](#juno)
-- [starknet-rs](#starknet-rs)
-- [starkli](#starkli)
 - [quickly on-board new developers by examples](#quickly-on-board-new-developers-by-examples)
   - [cairo-by-example](#cairo-by-example)
   - [StarknetByExample](#starknetbyexample)
@@ -149,7 +146,9 @@ https://github.com/starknet-edu
 - Starknet ERC721: https://github.com/starknet-edu/starknet-erc721
 - Starknet ERC20: https://github.com/starknet-edu/starknet-erc20
 
-## Madara
+## APPChain Layer3
+
+### Madara
 
 Utilizing the Substrate framework and integrating the Cairo VM for the building of appchain / layer3.
 
@@ -168,14 +167,6 @@ A Rust implementation for the transaction-executing component in the StarkNet se
 
 Repository:
 https://github.com/starkware-libs/blockifier
-
-## Sequencer
-
-- ~~lambda_starknet_sequencer~~
-
-  A Starknet decentralized sequencer implementation
-
-  https://github.com/lambdaclass/lambda_starknet_sequencer
 
 ## OpenZeppelin/cairo-contracts
 
@@ -206,19 +197,9 @@ https://github.com/eqlabs/pathfinder
 
 ### juno
 
-Full node Starknet client implementation.
+A golang Starknet node implementation by Nethermind with the aim of decentralising Starknet.
 
 https://github.com/NethermindEth/juno
-
-## starknet-rs
-
-starknet-rs, Complete Starknet library in Rust.
-
-## starkli
-
-CLI tool for Starknet.
-
-https://github.com/xJonathanLEI/starkli
 
 ## quickly on-board new developers by examples
 
