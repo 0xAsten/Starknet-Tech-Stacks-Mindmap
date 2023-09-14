@@ -54,6 +54,8 @@ The mind map is organized into the following categories:
   - [StarknetByExample](#starknetbyexample)
 - [ZKML](#zkml)
   - [Orion](#orion)
+- [Other study materials](#other-study-materials)
+  - [Cairopractice](#cairopractice)
 
 ## Cairo
 
@@ -218,6 +220,14 @@ https://github.com/NethermindEth/StarknetByExample
 A framework dedicated to Provable Machine Learning. It provides essential components and a new ONNX runtime for building verifiable Machine Learning models using STARKs.
 
 https://github.com/gizatechxyz/orion
+
+## Other study materials
+
+### Cairopractice
+
+A blog about Cairo and Starknet.
+
+https://cairopractice.com/
 
 ## Contribute
 
