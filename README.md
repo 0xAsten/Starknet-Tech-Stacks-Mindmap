@@ -31,6 +31,8 @@ The mind map is organized into the following categories:
   - [Smart Contracts](#smart-contracts)
     - [protostar](#protostar)
     - [Starknet Foundry](#starknet-foundry)
+  - [starknet.js](#starknetjs)
+  - [starknet-react](#starknet-react)
 - [Starknet Edu](#starknet-edu)
   - [Starknet Book](#starknet-book)
   - [Starknet Cairo 101](#starknet-cairo-101)
@@ -54,6 +56,8 @@ The mind map is organized into the following categories:
   - [StarknetByExample](#starknetbyexample)
 - [ZKML](#zkml)
   - [Orion](#orion)
+- [Stone Prover](#stone-prover)
+  - [Sharp](#sharp)
 - [Other study materials](#other-study-materials)
   - [Cairopractice](#cairopractice)
 
@@ -136,6 +140,20 @@ It is an effort subsequent to protostar, the original protostar team is working 
 Yup, protostar will not be much supported anymore, whole protostar team is working on starknet-foundry right now.
 
 https://github.com/foundry-rs/starknet-foundry
+
+### starknet.js
+
+JavaScript library for StarkNet
+
+https://github.com/starknet-io/starknet.js
+
+[Homepage](https://www.starknetjs.com/)
+
+### starknet-react
+
+A collection of React providers and hooks for StarkNet
+
+https://github.com/apibara/starknet-react
 
 ## Starknet Edu
 
@@ -220,6 +238,18 @@ https://github.com/NethermindEth/StarknetByExample
 A framework dedicated to Provable Machine Learning. It provides essential components and a new ONNX runtime for building verifiable Machine Learning models using STARKs.
 
 https://github.com/gizatechxyz/orion
+
+## Stone Prover
+
+The Stone Prover is suitable for proving Cairo programs.
+
+[Open Source Announcement](https://starkware.co/resource/open-sourcing-the-battle-tested-stone-prover/)
+
+https://github.com/starkware-libs/stone-prover
+
+### Sharp
+
+StarkWare built the SHARP system with this Prover as its basis.
 
 ## Other study materials
 
