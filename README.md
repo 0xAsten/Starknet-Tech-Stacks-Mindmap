@@ -48,6 +48,7 @@ The mind map is organized into the following categories:
   - [Sozu](#sozu)
   - [Katana](#katana)
   - [Torii](#torii)
+  - [Dojo Book](#dojo-book)
 - [Full Node](#full-node)
   - [pathfinder](#pathfinder)
   - [juno](#juno)
@@ -203,9 +204,17 @@ https://github.com/keep-starknet-strange/alexandria
 
 Game engine and toolchain for building onchain games.
 
+https://github.com/dojoengine/dojo
+
 - [Sozu](#sozu)
 - [Katana](#katana)
 - [Torii](#torii)
+
+### Dojo Book
+
+https://github.com/dojoengine/book
+
+https://book.dojoengine.org/
 
 ## Full Node
 
