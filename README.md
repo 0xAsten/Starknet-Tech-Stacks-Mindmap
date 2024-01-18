@@ -61,6 +61,8 @@ The mind map is organized into the following categories:
   - [Sharp](#sharp)
 - [Other study materials](#other-study-materials)
   - [Cairopractice](#cairopractice)
+- [Light Client](#light-client)
+  - [Beerus](#beerus)
 
 ## Cairo
 
@@ -267,6 +269,14 @@ StarkWare built the SHARP system with this Prover as its basis.
 A blog about Cairo and Starknet.
 
 https://cairopractice.com/
+
+## Light Client
+
+### Beerus
+
+A light client for StarkNet.
+
+https://github.com/eigerco/beerus
 
 ## Contribute
 
