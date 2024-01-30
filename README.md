@@ -33,6 +33,7 @@ The mind map is organized into the following categories:
     - [Starknet Foundry](#starknet-foundry)
   - [starknet.js](#starknetjs)
   - [starknet-react](#starknet-react)
+  - [abi-wan-kanabi](#abi-wan-kanabi)
 - [Starknet Edu](#starknet-edu)
   - [Starknet Book](#starknet-book)
   - [Starknet Cairo 101](#starknet-cairo-101)
@@ -157,6 +158,12 @@ https://github.com/starknet-io/starknet.js
 A collection of React providers and hooks for StarkNet
 
 https://github.com/apibara/starknet-react
+
+### abi-wan-kanabi
+
+Abiwan is an UNLICENSE standalone TypeScript parser for Cairo smart contracts. It enables on the fly typechecking and autocompletion for contract calls directly in TypeScript.
+
+https://github.com/keep-starknet-strange/abi-wan-kanabi
 
 ## Starknet Edu
 
